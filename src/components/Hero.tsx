@@ -1,3 +1,5 @@
+import { SearchBar } from "."
+
 const Hero = () => {
     return (
         <section className="xl:pt-24 md:pt-10 ">
@@ -13,6 +15,9 @@ const Hero = () => {
                     <p className="px-0 mb-8 text-lg text-gray-400 md:text-xl lg:px-24">
                     A curated knowledge library showcasing over 200+ tools and resources for every stage of your web3 development and dev-preneur journey.
                     </p>
+                    <div className="my-20 space-x-0 md:space-x-2 md:mb-8">
+                       <SearchBar />
+                    </div>
                 </div>
             </div>
         </section>
