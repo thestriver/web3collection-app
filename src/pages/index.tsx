@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Hero } from '../components'
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
         <meta name="description" content="The biggest directory of tools and resources for web3 developers and dev-entrepreneurs" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Hero />
 
     </div>
   )
