@@ -1,6 +1,6 @@
 
 import useData from "../utils/dataContext"
-let categories: any;
+
 const Buttons = () => {
     const {setChosenCategory } = useData()
     return (
