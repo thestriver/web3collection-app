@@ -1,0 +1,21 @@
+export const categories = [
+'Learn', 
+'Solidity', 
+'Rust', 
+'Move', 
+'Faucets', 
+'Hackathons',
+'Onboarding users',
+'Wallets and Browser Extensions',
+'Starter Kits & Templates',
+'APIs, Libraries & SDKs',
+'Job Boards',
+'Analytics, Scanners & Trackers',
+'Smart Contracts',
+'Audit and Security',
+'Marketing and Community Management',
+'Payments & Accounting',
+'Accelerators & Incubators',
+'Raising Funds (Grants and VC)',
+'DAO management'
+]
