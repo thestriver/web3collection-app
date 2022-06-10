@@ -1,10 +1,12 @@
 import Hero from "./Hero";
 import { Nav } from "./Nav";
 import SearchBar from "./SearchBar";
-Nav
+import Buttons from './Buttons'
+
 export {
     Hero,
     SearchBar,
-    Nav
+    Nav,
+    Buttons
 
 }
