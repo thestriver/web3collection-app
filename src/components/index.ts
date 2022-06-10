@@ -8,5 +8,4 @@ export {
     SearchBar,
     Nav,
     Buttons
-
 }
