@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Hero, Nav } from '../components'
+import { Buttons, Hero, Nav } from '../components'
 
 export default function Home() {
   return (

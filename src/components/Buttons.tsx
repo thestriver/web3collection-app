@@ -1,4 +1,4 @@
-
+import { categories } from "../utils/categories"
 import useData from "../utils/dataContext"
 
 const Buttons = () => {
