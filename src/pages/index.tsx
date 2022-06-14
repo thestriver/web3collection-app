@@ -1,19 +1,22 @@
+import type { NextPage } from 'next'
 import Head from 'next/head'
-import { Buttons, Hero, Nav } from '../components'
+import { Buttons, Hero, Layer, Nav } from '../components'
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <div className='min-h-[100vh]' style={{ background: '#181C2A'}}>
-       <Head>
+      <Head>
         <title>Web3 Collection</title>
         <meta name="description" content="The biggest directory of tools and resources for web3 developers and dev-entrepreneurs" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero />
       <Nav />
+      <Hero />
       <Buttons />
-
+      <Layer />
     </div>
   )
 }
+
+export default Home

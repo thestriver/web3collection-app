@@ -1,6 +1,8 @@
+import { Card } from "."
 const Layer = () => {
-    return <></>
-        //insert card
+    return (
+        <Card />
+    )
 }
 
 export default Layer

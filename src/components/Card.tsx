@@ -2,7 +2,7 @@ import Image from 'next/image'
 import useData from "../utils/dataContext"
 import { useCallback, useEffect, useState } from "react"
 
-const resources = [{}] //filler text
+const resources = [{}] //resources
 
 const Card = () => {
     const { chosenCategory } = useData()
